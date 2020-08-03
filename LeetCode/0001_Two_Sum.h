@@ -1,0 +1,8 @@
+//
+// Created by HansBlackCat on 8/3/20.
+//
+
+#ifndef CODINGCHALLENGE_0001_TWO_SUM_H
+#define CODINGCHALLENGE_0001_TWO_SUM_H
+
+#endif //CODINGCHALLENGE_0001_TWO_SUM_H
