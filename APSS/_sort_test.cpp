@@ -78,3 +78,29 @@ int fastest_max_sum(const vector<int>& A) {
 
     return ret;
 }
+
+int binsearch(const vector<int>& A, int x) {
+    int n = A.size();
+    int lo = -1, hi = n;
+
+    while (lo + 1 < hi) {
+        int mid = (lo + hi) / 2;
+        if (A[mid] < x) {
+            lo = mid;
+        } else {
+            hi = mid;
+        }
+    }
+
+    return hi;
+}
+
+void insertion_sort2(vector<int>& A) {
+    for (int i = 0; i < A.size(); ++i) {
+        int j = i;
+        while (j > 0 && A[j-1] > A[j]) {
+            swap(A[j-1], A[j]);
+            --j;
+        }
+    }
+}

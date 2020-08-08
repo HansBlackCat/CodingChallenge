@@ -34,6 +34,6 @@ int main() {
         std::cin >> N;
         std::cout << convert(N) << "\n";
     }
-    std::cout << "\0";
+    std::cout << '\0';
 }
 
